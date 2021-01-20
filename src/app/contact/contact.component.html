@@ -1,1 +1,56 @@
-<p>contact works!</p>
+<section id="contact" [ngStyle.lt-md]="{'margin-top': '50px', 'margin-bottom': '50px'}">
+    <div class="container">
+        <div class="contact-section contact-heading mat-typography" fxLayout="column" fxLayoutAlign="center center">
+            <div>
+                <h2 [ngStyle.lt-md]="{'margin-bottom': '15px'}">Contact</h2>
+            </div>
+            <div>
+                <h3 [ngStyle.xs]="{'font-size': '18px'}" [ngStyle.sm]="{'font-size': '22px'}">Have a question or want to work together?</h3>
+            </div>
+        </div>
+
+
+
+        <form class="formwidth">
+            <div class="contact-form" [ngStyle.xs]="{'padding-left': '50px', 'padding-right': '50px'}"
+                [ngStyle.sm]="{'padding-left': '100px', 'padding-right': '100px'}"
+                [ngStyle.md]="{'padding-left': '150px', 'padding-right': '150px'}"
+                [ngStyle.lg]="{'padding-left': '200px', 'padding-right': '200px'}">
+
+                <mat-form-field appearance="outline" color="accent">
+                    <mat-label>Name</mat-label>
+                    <input matInput placeholder="Name">
+                    <mat-error>
+                        Name is <strong>required</strong>
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field appearance="outline" color="accent">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Email">
+                    <mat-error>
+                        Email is <strong>required</strong>
+                    </mat-error>
+                </mat-form-field>
+
+                <!-- <mat-form-field appearance="outline" color="accent">
+                    <mat-label>Your Message </mat-label>
+                    <textarea></textarea>
+                    <mat-error>
+                        Please enter a valid email address
+                    </mat-error>
+                    <mat-error>
+                        Email is <strong>required</strong>
+                    </mat-error>
+                </mat-form-field> -->
+
+                <br>
+
+                <div fxLayout="row" fxLayoutAlign="center center">
+                    <button mat-raised-button color="accent" type="submit">Submit</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</section>
