@@ -1,1 +1,15 @@
-<p>heading works!</p>
+<section id="heading" class="mat-typography" [ngStyle.lt-md]="{'margin-top': '30px', 'margin-bottom': '30px'}">
+    <div class="container">
+        <div class="heading-section" fxLayout="column" fxLayoutAlign="center center">
+            <div>
+                <h1 [ngStyle.xs]="{'font-size': '32px'}" [ngStyle.sm]="{'font-size': '42px'}">Hello, I'm Juan Oliver.</h1>                      
+            </div>
+            <div>
+                <h2 [ngStyle.xs]="{'font-size': '18px'}" [ngStyle.sm]="{'font-size': '22px'}">I'm a Web Developer & Video Creator</h2>
+            </div>
+            <div fxLayout="row">
+                <a class="heading-button-left" mat-raised-button color="accent">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
