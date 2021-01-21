@@ -11,7 +11,7 @@
 
 
 
-        <form class="formwidth">
+        <form class="formwidth" (ngSubmit)="onSubmit()">
             <div class="contact-form" [ngStyle.xs]="{'padding-left': '50px', 'padding-right': '50px'}"
                 [ngStyle.sm]="{'padding-left': '100px', 'padding-right': '100px'}"
                 [ngStyle.md]="{'padding-left': '150px', 'padding-right': '150px'}"
@@ -33,23 +33,19 @@
                     </mat-error>
                 </mat-form-field>
 
-                <!-- <mat-form-field appearance="outline" color="accent">
-                    <mat-label>Your Message </mat-label>
-                    <textarea></textarea>
+                <mat-form-field appearance="outline" color="accent">
+                    <mat-label>Your Message</mat-label>
                     <mat-error>
-                        Please enter a valid email address
+                        Message is <strong>required</strong>
                     </mat-error>
-                    <mat-error>
-                        Email is <strong>required</strong>
-                    </mat-error>
-                </mat-form-field> -->
+                    <textarea matInput placeholder="Your Message" style="height:164px"></textarea>
+                  </mat-form-field>
 
                 <br>
 
                 <div fxLayout="row" fxLayoutAlign="center center">
                     <button mat-raised-button color="accent" type="submit">Submit</button>
                 </div>
-
             </div>
         </form>
     </div>
