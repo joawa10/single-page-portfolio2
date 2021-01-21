@@ -22,3 +22,7 @@
 .portfolio-heading h3{
   font-size: 22px;
 }
+
+.mat-card {
+  margin-bottom: 16px;
+}
