@@ -1,24 +1,29 @@
 /* --------- heading --------- */
+#heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(https://unsplash.com/photos/vjMgqUkS8q8/download?force=true&w=1920);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0px !important;
+  color: white;
+}
 
-.heading-section{
-    text-align: center;
-    margin-top: 15px;
-  }
-  
-  .heading-section h1{
-    font-size: 58px;
-    margin: 0px;
-  }
-  
-  .heading-button-left{
-    min-width: 144px;
-    max-width: 100%;
-  }
-  
-  .heading-button-right{
-    margin-left: 10px;
-  }
+.heading-section {
+  text-align: center;
+  height: 100vh;
+}
 
-  h1 {
-    padding: 1rem
-  }
+.heading-section h1 {
+  font-size: 58px;
+  margin: 0px;
+}
+
+.heading-button-left {
+  min-width: 144px;
+  max-width: 100%;
+}
+
+h1 {
+  padding: 1rem;
+}
