@@ -1,3 +1,7 @@
+#portfolio {
+  background-color: whitesmoke;
+}
+
 .portfolio-row{
     margin-top: 20px;    
     margin: 0px 20px;
@@ -17,6 +21,10 @@
 
 .portfolio-heading h2{
   font-size: 32px;
+  text-decoration: underline;
+  text-decoration-color: #ff4081;
+  text-underline-position: under;
+  margin-bottom: 60px;
 }
 
 .portfolio-heading h3{

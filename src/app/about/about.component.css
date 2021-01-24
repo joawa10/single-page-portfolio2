@@ -1,18 +1,22 @@
 .about-section {
-    text-align: center;
+    text-align: center;  
 }
 
 .about-heading {
-    padding: 30px 0px;
-    margin: 0px 20px;
+    margin: 30px;
 }
 
 .about-heading h2 {
-    font-size: 32px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #ff4081;
+    text-underline-position: under;
+    margin-bottom: 85px;
 }
 
 .about-heading h3 {
-    font-size: 22px;
+    font-size: 20px;
+    padding: 0px 200px;
 }
 
 .about-text {

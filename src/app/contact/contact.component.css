@@ -1,3 +1,9 @@
+#contact {
+    height: 100vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .contact-section {
     text-align: center;
 }
@@ -8,10 +14,14 @@
 
 .contact-heading h2 {
     font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: #ff4081;
+    text-underline-position: under;
 }
 
 .contact-heading h3 {
-    font-size: 22px;
+    font-size: 16px;
+    padding: 0px 30px;
 }
 
 .contact-form {
