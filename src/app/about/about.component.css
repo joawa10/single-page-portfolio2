@@ -35,6 +35,10 @@
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
+    color: white;
+    background-size: 75px;
+    background-color:  #ff4081;
+    border-radius: 20px;
 
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
